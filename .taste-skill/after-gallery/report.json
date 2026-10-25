@@ -1,0 +1,2736 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-22T09:16:54.938Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.18,
+    0.87,
+    0.61,
+    0.51,
+    0.89,
+    0.88,
+    1,
+    0.71,
+    1,
+    1,
+    0.6,
+    0.78
+   ],
+   "motion": {
+    "elements": 75,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 75,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 15081,
+     "screens": 16.8,
+     "words": 546,
+     "img": 22,
+     "video": 1,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 22,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Forilla-hero.jpg&w=1920&q=7",
+      "image?url=%2Fimages%2Forilla-shore.jpg&w=1080&q=",
+      "image?url=%2Fimages%2Forilla-aerial.jpg&w=1920&q",
+      "image?url=%2Fimages%2Forilla-villa-interior.jpg&",
+      "image?url=%2Fimages%2Forilla-pool.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Forilla-cliff-portrait.jpg&",
+      "image?url=%2Fimages%2Forilla-tide-steps.jpg&w=64",
+      "image?url=%2Fimages%2Forilla-dining.jpg&w=640&q="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nine stone villas",
+     "words": 3,
+     "chars": 17,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Switzer",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.29,
+     "top": 586,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nine stone villas",
+     "words": 3,
+     "lines": 2,
+     "size": 64,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Nine stone villas",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 586,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A bay held in stone",
+      "words": 5,
+      "chars": 19,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 2047,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nine villas",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3132,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Arrive",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.61,
+      "top": 5398,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The day follows water",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 5398,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Wait",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.61,
+      "top": 5640,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Walk",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.61,
+      "top": 5845,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stay",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.61,
+      "top": 6050,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stone, water, quiet",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 6507,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nine villas. One cove.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 9526,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Choose your light",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 10627,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Before you come",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 11664,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hold a few nights",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 13169,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Plan a stay",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 13596,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      20,
+      24,
+      28,
+      44,
+      56,
+      64
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 24,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": -0.008,
+      "contrast": 15.6
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "text": "Nine stone villas"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f1ed",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.2,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f1ed",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e8e5df",
+       "top": 2363,
+       "hsl": {
+        "h": 40,
+        "s": 0.16,
+        "l": 0.89
+       }
+      },
+      {
+       "color": "#1a1917",
+       "top": 6672,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1a1917",
+       "share": 0.36
+      },
+      {
+       "color": "#6f6c66",
+       "share": 0.25
+      },
+      {
+       "color": "#9a9690",
+       "share": 0.14
+      },
+      {
+       "color": "#3f3c37",
+       "share": 0.13
+      },
+      {
+       "color": "#f5f4f1",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#8e735c",
+      "hsl": {
+       "h": 28,
+       "s": 0.21,
+       "l": 0.46
+      },
+      "fg": "#f3f1ed"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Enquire",
+      "Enquire for dates"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 23,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 15081,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1710,
+      "words": 24,
+      "media": 1,
+      "middle": 670,
+      "heading": {
+       "text": "Nine stone villas",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 235,
+      "textLeft": 32,
+      "textRight": 235,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 1710,
+      "height": 1358,
+      "words": 57,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "A bay held in stone",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 859,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.frame.showcase__intro",
+      "tag": "div",
+      "top": 3132,
+      "height": 132,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 1064,
+      "textLeft": 32,
+      "textRight": 1064,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.pin-spacer",
+      "tag": "div",
+      "top": 3264,
+      "height": 1980,
+      "words": 11,
+      "media": 10,
+      "middle": 1792,
+      "heading": null,
+      "left": 32,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": 1245,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.rhythm",
+      "tag": "section",
+      "top": 5244,
+      "height": 1109,
+      "words": 92,
+      "media": 0,
+      "middle": 93,
+      "heading": {
+       "text": "Arrive",
+       "size": 64,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 354,
+      "textLeft": 32,
+      "textRight": 354,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.gallery__lead",
+      "tag": "div",
+      "top": 6353,
+      "height": 319,
+      "words": 3,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Stone, water, quiet",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 1106,
+      "textLeft": 32,
+      "textRight": 1106,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.gallery__stack",
+      "tag": "div",
+      "top": 6672,
+      "height": 2700,
+      "words": 20,
+      "media": 1,
+      "middle": 2,
+      "heading": null,
+      "left": 32,
+      "right": 1144,
+      "textLeft": 32,
+      "textRight": 1144,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 9372,
+      "height": 1101,
+      "words": 46,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Nine villas. One cove.",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 170,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tide.section.tide",
+      "tag": "section",
+      "top": 10473,
+      "height": 1038,
+      "words": 51,
+      "media": 1,
+      "middle": 24,
+      "heading": {
+       "text": "Choose your light",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 219,
+      "textLeft": 32,
+      "textRight": 219,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 11511,
+      "height": 1183,
+      "words": 144,
+      "media": 2,
+      "middle": 170,
+      "heading": {
+       "text": "Before you come",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 968,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.cta.section--flush",
+      "tag": "section",
+      "top": 12694,
+      "height": 810,
+      "words": 25,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Hold a few nights",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 1046,
+      "right": 80,
+      "textLeft": 1046,
+      "textRight": 80,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#stay.contact.section--flush",
+      "tag": "section",
+      "top": 13504,
+      "height": 900,
+      "words": 31,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Plan a stay",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 1060,
+      "right": 64,
+      "textLeft": 1060,
+      "textRight": 64,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 14404,
+      "height": 677,
+      "words": 93,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Visit",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 144,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6196,
+      "height": 304
+     },
+     {
+      "top": 10316,
+      "height": 304
+     },
+     {
+      "top": 11360,
+      "height": 296
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Nine stone villas",
+      "size": 64,
+      "top": 586,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 16
+     },
+     {
+      "x": 844,
+      "n": 2
+     },
+     {
+      "x": 1046,
+      "n": 2
+     },
+     {
+      "x": 1060,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.57,
+    0.87,
+    0.75,
+    0.57,
+    0.81,
+    0.86,
+    0.8,
+    1,
+    1,
+    0.72,
+    0.81,
+    0.87
+   ],
+   "motion": {
+    "elements": 75,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 75,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 17544,
+     "screens": 17.1,
+     "words": 542,
+     "img": 22,
+     "video": 1,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 21,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Forilla-hero.jpg&w=828&q=75",
+      "image?url=%2Fimages%2Forilla-shore.jpg&w=828&q=7",
+      "image?url=%2Fimages%2Forilla-aerial.jpg&w=828&q=",
+      "image?url=%2Fimages%2Forilla-villa-interior.jpg&",
+      "image?url=%2Fimages%2Forilla-pool.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Forilla-cliff-portrait.jpg&",
+      "image?url=%2Fimages%2Forilla-tide-steps.jpg&w=64",
+      "image?url=%2Fimages%2Forilla-dining.jpg&w=640&q="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nine stone villas",
+     "words": 3,
+     "chars": 17,
+     "lines": 1,
+     "size": 53.1,
+     "vw": 6.9,
+     "font": "Switzer",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.48,
+     "top": 88,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nine stone villas",
+     "words": 3,
+     "lines": 1,
+     "size": 53.1,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Nine stone villas",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 88,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A bay held in stone",
+      "words": 5,
+      "chars": 19,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 2073,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nine villas",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 3414,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The day follows water",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 5912,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Arrive",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 6089,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Wait",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 6305,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Walk",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 6486,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stay",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 6666,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stone, water, quiet",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 7053,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nine villas. One cove.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 9991,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Choose your light",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 11546,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Before you come",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 43.9,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 12691,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hold a few nights",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 15430,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      18,
+      19,
+      22,
+      24,
+      28,
+      44,
+      53
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 22.2,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": -0.008,
+      "contrast": 15.6
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "text": "Nine stone villas"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f1ed",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.2,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f1ed",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e8e5df",
+       "top": 2340,
+       "hsl": {
+        "h": 40,
+        "s": 0.16,
+        "l": 0.89
+       }
+      },
+      {
+       "color": "#1a1917",
+       "top": 7161,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#8e735c",
+       "top": 10653,
+       "hsl": {
+        "h": 28,
+        "s": 0.21,
+        "l": 0.46
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 16292,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1a1917",
+       "share": 0.39
+      },
+      {
+       "color": "#6f6c66",
+       "share": 0.25
+      },
+      {
+       "color": "#9a9690",
+       "share": 0.14
+      },
+      {
+       "color": "#3f3c37",
+       "share": 0.13
+      },
+      {
+       "color": "#f3f1ed",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#8e735c",
+      "hsl": {
+       "h": 28,
+       "s": 0.21,
+       "l": 0.46
+      },
+      "fg": "#f3f1ed"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Enquire for dates"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 23,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 17544,
+    "margins": {
+     "left": 28,
+     "right": 28
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1946,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Nine stone villas",
+       "size": 53,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 376,
+      "textLeft": 28,
+      "textRight": 376,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 1946,
+      "height": 1404,
+      "words": 57,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "A bay held in stone",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 223,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#villas.showcase.section--flush",
+      "tag": "section",
+      "top": 3350,
+      "height": 2435,
+      "words": 22,
+      "media": 10,
+      "middle": 2620,
+      "heading": {
+       "text": "Nine villas",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 0,
+      "textLeft": 28,
+      "textRight": 416,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.section.rhythm",
+      "tag": "section",
+      "top": 5785,
+      "height": 1141,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Arrive",
+       "size": 53,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 230,
+      "textLeft": 28,
+      "textRight": 230,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.gallery__lead",
+      "tag": "div",
+      "top": 6926,
+      "height": 235,
+      "words": 3,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Stone, water, quiet",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 404,
+      "textLeft": 28,
+      "textRight": 404,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.gallery__stack",
+      "tag": "div",
+      "top": 7161,
+      "height": 2703,
+      "words": 20,
+      "media": 1,
+      "middle": 3,
+      "heading": null,
+      "left": 28,
+      "right": 480,
+      "textLeft": 28,
+      "textRight": 480,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 9864,
+      "height": 1555,
+      "words": 46,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Nine villas. One cove.",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 170,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tide.section.tide",
+      "tag": "section",
+      "top": 11419,
+      "height": 1145,
+      "words": 51,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Choose your light",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 249,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 12564,
+      "height": 2101,
+      "words": 144,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Before you come",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 325,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta.section--flush",
+      "tag": "section",
+      "top": 14665,
+      "height": 990,
+      "words": 25,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 28,
+      "right": 32,
+      "textLeft": 28,
+      "textRight": 32,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#stay.contact.section--flush",
+      "tag": "section",
+      "top": 15655,
+      "height": 1155,
+      "words": 31,
+      "media": 1,
+      "middle": 158,
+      "heading": null,
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 60,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 16810,
+      "height": 733,
+      "words": 93,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Visit",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 172,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nine stone villas",
+      "size": 53,
+      "top": 88,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 28,
+      "n": 20
+     },
+     {
+      "x": 60,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.59,
+    0.87,
+    0.65,
+    0.72,
+    0.84,
+    0.89,
+    0.87,
+    0.94,
+    0.99,
+    0.85,
+    0.61,
+    0.88
+   ],
+   "motion": {
+    "elements": 75,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 75,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 14650,
+     "screens": 17.4,
+     "words": 542,
+     "img": 22,
+     "video": 1,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 22,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Forilla-hero.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Forilla-shore.jpg&w=640&q=7",
+      "image?url=%2Fimages%2Forilla-aerial.jpg&w=640&q=",
+      "image?url=%2Fimages%2Forilla-villa-interior.jpg&",
+      "image?url=%2Fimages%2Forilla-pool.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Forilla-cliff-portrait.jpg&",
+      "image?url=%2Fimages%2Forilla-tide-steps.jpg&w=64",
+      "image?url=%2Fimages%2Forilla-dining.jpg&w=640&q="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nine stone villas",
+     "words": 3,
+     "chars": 17,
+     "lines": 1,
+     "size": 44,
+     "vw": 11.3,
+     "font": "Switzer",
+     "weight": 400,
+     "tracking": -0.025,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.78,
+     "top": 88,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nine stone villas",
+     "words": 3,
+     "lines": 1,
+     "size": 44,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Nine stone villas",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 88,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A bay held in stone",
+      "words": 5,
+      "chars": 19,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1724,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nine villas",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2677,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The day follows water",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 4759,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Arrive",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 4922,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Wait",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5149,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Walk",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5345,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stay",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5542,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Stone, water, quiet",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5899,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nine villas. One cove.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 8392,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Choose your light",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 9517,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Before you come",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 10476,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hold a few nights",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 12578,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Plan a stay",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Switzer",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 13369,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      17,
+      18,
+      20,
+      24,
+      28,
+      33,
+      44
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 20,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": -0.008,
+      "contrast": 15.6
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "text": "Nine stone villas"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f1ed",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.2,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f1ed",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e8e5df",
+       "top": 2960,
+       "hsl": {
+        "h": 40,
+        "s": 0.16,
+        "l": 0.89
+       }
+      },
+      {
+       "color": "#1a1917",
+       "top": 6044,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 13337,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1a1917",
+       "share": 0.39
+      },
+      {
+       "color": "#6f6c66",
+       "share": 0.25
+      },
+      {
+       "color": "#9a9690",
+       "share": 0.14
+      },
+      {
+       "color": "#3f3c37",
+       "share": 0.13
+      },
+      {
+       "color": "#f3f1ed",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#8e735c",
+      "hsl": {
+       "h": 28,
+       "s": 0.21,
+       "l": 0.46
+      },
+      "fg": "#f3f1ed"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Enquire for dates"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 22,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 14650,
+    "margins": {
+     "left": 22,
+     "right": 22
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1604,
+      "words": 24,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Nine stone villas",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 22,
+      "right": 66,
+      "textLeft": 22,
+      "textRight": 66,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 1604,
+      "height": 1009,
+      "words": 57,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "A bay held in stone",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#villas.showcase.section--flush",
+      "tag": "section",
+      "top": 2613,
+      "height": 2025,
+      "words": 22,
+      "media": 10,
+      "middle": 2038,
+      "heading": {
+       "text": "Nine villas",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 0,
+      "textLeft": 22,
+      "textRight": 60,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.section.rhythm",
+      "tag": "section",
+      "top": 4639,
+      "height": 1140,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Arrive",
+       "size": 44,
+       "tag": "h3"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.gallery__lead",
+      "tag": "div",
+      "top": 5779,
+      "height": 265,
+      "words": 3,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Stone, water, quiet",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 113,
+      "textLeft": 22,
+      "textRight": 113,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.gallery__stack",
+      "tag": "div",
+      "top": 6044,
+      "height": 2228,
+      "words": 20,
+      "media": 1,
+      "middle": 4,
+      "heading": null,
+      "left": 22,
+      "right": 113,
+      "textLeft": 22,
+      "textRight": 113,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 8272,
+      "height": 1125,
+      "words": 46,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Nine villas. One cove.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tide.section.tide",
+      "tag": "section",
+      "top": 9397,
+      "height": 959,
+      "words": 51,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Choose your light",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 10356,
+      "height": 1584,
+      "words": 144,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Before you come",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.cta.section--flush",
+      "tag": "section",
+      "top": 11939,
+      "height": 887,
+      "words": 25,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 22,
+      "right": 47,
+      "textLeft": 22,
+      "textRight": 47,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#stay.contact.section--flush",
+      "tag": "section",
+      "top": 12827,
+      "height": 1044,
+      "words": 31,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 54,
+      "right": 54,
+      "textLeft": 54,
+      "textRight": 54,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 13871,
+      "height": 779,
+      "words": 93,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visit",
+       "size": 17,
+       "tag": "h3"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nine stone villas",
+      "size": 44,
+      "top": 88,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 22,
+      "n": 20
+     },
+     {
+      "x": 54,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f3f1ed, section #f3f1ed, section #e8e5df).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"Nine stone villas\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\desktop-page-01.jpg",
+    "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\desktop-page-02.jpg",
+    "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\tablet-page-01.jpg",
+    "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\mobile-page-01.jpg",
+    "C:\\Users\\bnhviet\\Documents\\Project\\resort\\.taste-skill\\after-gallery\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

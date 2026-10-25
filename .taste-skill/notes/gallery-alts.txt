@@ -1,0 +1,27 @@
+﻿# gallery: blueprints that suit "The place carries it"
+
+- `gallery-staggered-pairs` ΓÇö **Staggered pairs in empty ground** (stack). No heading. Photographs are placed one or two per screen so that more than half of every screen stays empty ground.
+
+- `gallery-drag-row-mixed-modules` ΓÇö **Drag row of mixed modules** (carousel). One horizontal row, 68svh tall, running off both viewport edges with 12px gaps, draggable and scrollable sideways (`overflow-x: auto`, `scroll-snap-type: x proximity`, scrollbar hidden). The row is built from three module types: a tall single image at 3:4 filling the row height; a column of two stacked 4:3 images sharing the height with a 12px gap; and a wide 16:10 landscape at full height.
+
+- `gallery-full-bleed-sequence` ΓÇö **Full-bleed sequence, text interlocked** (full-bleed). Three photographs, each 100vw by 100svh, shown one after another with nothing between them. Each is `position: sticky; top: 0` inside a wrapper 300svh tall, so the second slides up over the first and the third over the second like a curtain; no scroll hijacking.
+
+- `gallery-rising-triptych` ΓÇö **Rising triptych** (pinned). A wrapper about 200svh tall holds a sticky stage of 100svh on the plain page ground. The heading, two lines at clamp(32px, 2.8vw, 44px), is centred in the top fifth of the stage with one sentence at 17px under it.
+
+- `gallery-photographs-around-a-heading` (dealt) ΓÇö **Photographs gathered round a heading** (mosaic). A band about one screen tall on the plain page ground, used as the page's one deliberate rest. At its visual centre sits the heading, two lines at clamp(32px, 2.6vw, 40px) in a light weight, centred, with one sentence at 17px under it and a text link beneath that.
+
+# Other gallery blueprints (written for other directions; if one fits the content better, take its geometry and set it in this direction's type, colour and manner)
+
+- `gallery-small-frames-wide-space` ΓÇö **Small frames, wide space** (strip). A flat, quiet viewport 100svh tall in which about 70% of the screen is empty. At mid-height a single row of small portrait frames runs across and off both sides: each frame 11vw wide and 24svh tall (roughly 2:3), spaced 5vw apart, vertically centred, six or seven visible at 1440.
+
+- `gallery-prints-over-headline` ΓÇö **Prints dropped on the headline** (statement). A flat colour field 100svh tall. A two-line headline of two to four words in an ultra-condensed or ultra-heavy face is centred, each line clamp(120px, 14vw, 210px) tall with leading 0.85.
+
+- `gallery-dense-masonry-sheet` ΓÇö **Dense masonry sheet** (mosaic). A three-line statement at 22px, 30ch wide, sits at the 66% column with 64px of space below it; it is the only large text. Then a dense masonry of about twenty tiles in six columns with 4px gaps and 12px outer margins, built with CSS `columns: 6; column-gap: 4px` and `break-inside: avoid` on each figure.
+
+- `gallery-wall-of-word-tiles` ΓÇö **Wall of word tiles** (grid). A gallery that works with no photographs: a four-column grid of identical square cells with 8px gaps running three or more rows, edge to edge with 8px margins. Each cell is a flat filled tile and centres one large element about 55% of the cell's width: a single word, a letter, a figure with its unit, or a simple inline SVG shape taken from the subject, set at clamp(56px, 9vw, 150px) in the display face.
+
+- `gallery-one-frame-changing` ΓÇö **One frame, contents change** (pinned). Instead of many pictures side by side, one frame stays in place and its contents change. The frame is small and exact: 300px square on a quiet page, or up to 40vw at 4:5 on an object-led one, centred or sitting on the text column's left edge, with at least 20vh of empty ground above and below.
+
+- `gallery-tiles-with-label-strips` ΓÇö **Photo tiles with label strips** (grid). Four columns with 12px gaps; every tile is a photograph with a filled label strip attached directly beneath it, the two forming one object like a print with its swing tag. The photograph is 1:1 or 4:5 with square corners.
+
+Choose by what the content really is (how many plans, quotes, items exist), then: node draw.mjs --redraw section:gallery=<id>   and say why in your report.

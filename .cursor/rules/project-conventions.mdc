@@ -1,0 +1,47 @@
+---
+description: Shared conventions for the resort project (stack, quality bar, deploy)
+alwaysApply: true
+---
+
+# Resort project conventions
+
+## Stack
+
+- Frontend: Next.js (App Router), React, TypeScript/JS as in repo, Tailwind, Lenis, GSAP (`@gsap/react`)
+- CMS/content: Sanity
+- Backend: Node.js APIs, PostgreSQL
+- Payments: server-side only; never expose secrets or raw card data in the client
+- Preview/test: Vercel; production: Fly.io
+
+## Agent boundaries
+
+- Prefer the matching subagent for specialized work (planner, UI/UX, animation, FE/BE, reviewers, QA, performance)
+- Reviewers are read-only: findings only, no drive-by edits unless the user asks to apply fixes
+- Read `AGENTS.md` and Next.js docs under `node_modules/next/dist/docs/` before inventing Next APIs
+
+## Dependencies
+
+- Prefer well-maintained third-party libraries with an MIT (or similarly permissive) license when they make code smaller, clearer, and easier to maintain than a custom implementation
+- Do not reinvent utilities, UI primitives, date/form/validation helpers, etc. if a suitable MIT package already fits the stack
+- Avoid GPL/AGPL or unclear licenses unless the user explicitly approves; note license before adding a dependency
+- Prefer fewer, focused packages over heavy frameworks that overlap existing stack (Next, Tailwind, GSAP, Lenis, Sanity)
+
+## Code quality
+
+- Match existing file structure, naming, and Biome lint/format (`npm run lint` / `npm run format`)
+- Prefer small, focused diffs; no unrelated refactors or drive-by docs
+- Server vs client: default to Server Components; add `"use client"` only when needed (hooks, Lenis, GSAP, browser APIs)
+- Clean up GSAP/ScrollTrigger/Lenis on unmount; respect `prefers-reduced-motion`
+- No secrets in git; use env vars for Sanity, DB, payment, and deploy config
+
+## Product / UX
+
+- Resort marketing surfaces: brand-first, one composition per viewport, purposeful motion (not noise)
+- Accessibility and responsive layouts are required, not optional
+- Payment and booking flows must have clear loading, error, and success states
+
+## Deploy
+
+- Vercel: preview and staging-style checks
+- Fly.io: production runtime, env, health checks, and rollbacks
+- Do not assume prod credentials exist locally; document required env keys when adding integrations
