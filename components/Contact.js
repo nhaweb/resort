@@ -1,10 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { useDictionary } from "@/components/LocaleProvider";
+import Link from "next/link";
+import { useDictionary, useLocale } from "@/components/LocaleProvider";
 
 export default function Contact() {
-  const { contact, cta, site, hero } = useDictionary();
+  const locale = useLocale();
+  const { contact, cta, site } = useDictionary();
+  const bookHref = `/${locale}/book`;
 
   return (
     <section
@@ -27,9 +30,9 @@ export default function Contact() {
           <p key={line}>{line}</p>
         ))}
         <p>
-          <a className="link-plain" href={`mailto:${site.email}`}>
+          <Link className="link-plain" href={`mailto:${site.email}`}>
             {site.email}
-          </a>
+          </Link>
         </p>
         <p>{site.phone}</p>
         <div className="contact__hours">
@@ -41,9 +44,9 @@ export default function Contact() {
           ))}
         </div>
         <p>{site.boat}</p>
-        <a className="btn" href={cta.href}>
-          {hero.cta}
-        </a>
+        <Link className="btn" href={bookHref}>
+          {cta.button}
+        </Link>
       </div>
     </section>
   );

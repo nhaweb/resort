@@ -1,10 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { useDictionary } from "@/components/LocaleProvider";
+import Link from "next/link";
+import { useDictionary, useLocale } from "@/components/LocaleProvider";
 
 export default function Cta() {
+  const locale = useLocale();
   const { cta } = useDictionary();
+  const href = cta.href.startsWith("mailto:")
+    ? cta.href
+    : `/${locale}${cta.href.startsWith("/") ? cta.href : `/${cta.href}`}`;
 
   return (
     <section className="cta section--flush" aria-labelledby="cta-title">
@@ -22,9 +27,9 @@ export default function Cta() {
           {cta.title}
         </h2>
         <p className="cta__body">{cta.body}</p>
-        <a className="btn btn--paper" href={cta.href}>
+        <Link className="btn btn--paper" href={href}>
           {cta.button}
-        </a>
+        </Link>
       </div>
     </section>
   );

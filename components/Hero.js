@@ -4,14 +4,20 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef } from "react";
-import { useDictionary } from "@/components/LocaleProvider";
+import { useDictionary, useLocale } from "@/components/LocaleProvider";
+import { INTRO_DONE_EVENT } from "@/components/PageLoader";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function Hero() {
+  const locale = useLocale();
   const { hero, ui } = useDictionary();
   const root = useRef(null);
+  const ctaHref = hero.ctaHref.startsWith("#")
+    ? hero.ctaHref
+    : `/${locale}${hero.ctaHref.startsWith("/") ? hero.ctaHref : `/${hero.ctaHref}`}`;
 
   useGSAP(
     () => {
@@ -22,7 +28,7 @@ export default function Hero() {
       if (!stage) return;
 
       if (reduce) {
-        stage.classList.add("is-reduced");
+        stage.classList.add("is-reduced", "is-ready");
         return;
       }
 
@@ -30,6 +36,7 @@ export default function Hero() {
       const mask = stage.querySelector(".hero__mask");
       const media = stage.querySelector(".hero__media");
       const uiEl = stage.querySelector(".hero__ui");
+      const uiKids = uiEl ? gsap.utils.toArray(uiEl.children) : [];
       const desktop = window.matchMedia("(min-width: 900px)");
 
       // Transform-only expand: scale mask down, counter-scale media.
@@ -43,6 +50,31 @@ export default function Hero() {
       };
 
       applyStart();
+
+      const revealUi = () => {
+        stage.classList.add("is-ready");
+        if (!uiKids.length) return;
+        gsap.fromTo(
+          uiKids,
+          { autoAlpha: 0, y: 16 },
+          {
+            autoAlpha: 1,
+            y: 0,
+            duration: 0.6,
+            stagger: 0.08,
+            ease: "power3.out",
+            overwrite: "auto",
+          },
+        );
+      };
+
+      gsap.set(uiKids, { autoAlpha: 0, y: 16 });
+      const onIntroDone = () => revealUi();
+      if (document.documentElement.classList.contains("intro-done")) {
+        revealUi();
+      } else {
+        window.addEventListener(INTRO_DONE_EVENT, onIntroDone, { once: true });
+      }
 
       const tl = gsap.timeline({
         defaults: { ease: "none", force3D: true },
@@ -69,6 +101,12 @@ export default function Hero() {
           },
           0.35,
         );
+
+      return () => {
+        if (onIntroDone) {
+          window.removeEventListener(INTRO_DONE_EVENT, onIntroDone);
+        }
+      };
     },
     { scope: root },
   );
@@ -95,9 +133,9 @@ export default function Hero() {
           </div>
           <div className="hero__side">
             <p className="hero__support">{hero.support}</p>
-            <a className="btn hero__cta" href={hero.ctaHref}>
+            <Link className="btn hero__cta" href={ctaHref}>
               {hero.cta}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

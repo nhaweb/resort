@@ -1,0 +1,1331 @@
+{
+ "url": "http://localhost:3000/en/rooms/last-light",
+ "at": "2026-10-25T17:39:15.719Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.65,
+    0.43,
+    0.8,
+    0.87
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3051,
+     "screens": 3.4,
+     "words": 182,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Forilla-hero.jpg&w=1920&q=7",
+      "image?url=%2Fimages%2Forilla-dining.jpg&w=1920&q"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Last Light",
+     "words": 2,
+     "chars": 10,
+     "lines": 1,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Switzer",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.53,
+     "top": 179,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Last Light",
+     "words": 2,
+     "lines": 1,
+     "size": 64,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Last Light",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 179,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      24,
+      64
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 14,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.014,
+      "contrast": 6
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Switzer",
+      "text": "Last Light"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 2,
+     "microLabelShare": 0.039,
+     "microSamples": [
+      "Walnut · travertine · bronze",
+      "In the villa"
+     ],
+     "upperShare": 0.05,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Walnut · travertine · bronze",
+      "above": "Last Light",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 146
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f1ed",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.2,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f1ed",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e8e5df",
+       "top": 349,
+       "hsl": {
+        "h": 40,
+        "s": 0.16,
+        "l": 0.89
+       }
+      },
+      {
+       "color": "#1a1917",
+       "top": 2343,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9a9690",
+       "share": 0.46
+      },
+      {
+       "color": "#1a1917",
+       "share": 0.34
+      },
+      {
+       "color": "#f3f1ed",
+       "share": 0.12
+      },
+      {
+       "color": "#6f6c66",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#8e735c",
+      "hsl": {
+       "h": 28,
+       "s": 0.21,
+       "l": 0.46
+      },
+      "fg": "#f3f1ed"
+     },
+     "lowContrast": [
+      {
+       "text": "Book a stay",
+       "ratio": 3.9,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#f3f1ed",
+       "bg": "#8e735c"
+      },
+      {
+       "text": "Book this villa",
+       "ratio": 3.9,
+       "need": 4.5,
+       "size": 19,
+       "fg": "#f3f1ed",
+       "bg": "#8e735c"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a stay"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "div 463px",
+      "li 463px",
+      "li 463px",
+      "li 463px",
+      "li 463px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.61
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist",
+     "switzer",
+     "__nextjs-geist"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3051,
+    "margins": {
+     "left": 32,
+     "right": 144
+    },
+    "sections": [
+     {
+      "sel": "main#room",
+      "tag": "main",
+      "top": 0,
+      "height": 2189,
+      "words": 76,
+      "media": 2,
+      "middle": 390,
+      "heading": {
+       "text": "Last Light",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 177,
+      "textLeft": 32,
+      "textRight": 177,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 2343,
+      "height": 708,
+      "words": 93,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Visit",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 144,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Last Light",
+      "size": 64,
+      "top": 179,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 2
+     },
+     {
+      "x": 945,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.15,
+    "voidBox": {
+     "x": 360,
+     "y": 120,
+     "w": 1080,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.63,
+    0.5,
+    0.87,
+    0.87
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3102,
+     "screens": 3,
+     "words": 177,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Forilla-hero.jpg&w=828&q=75",
+      "image?url=%2Fimages%2Forilla-dining.jpg&w=828&q="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Last Light",
+     "words": 2,
+     "chars": 10,
+     "lines": 1,
+     "size": 53.1,
+     "vw": 6.9,
+     "font": "Switzer",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.93,
+     "top": 179,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Last Light",
+     "words": 2,
+     "lines": 1,
+     "size": 53.1,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Last Light",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 179,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      18,
+      22,
+      53
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 14,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.013,
+      "contrast": 6
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 53.1,
+      "vw": 6.9,
+      "font": "Switzer",
+      "text": "Last Light"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 2,
+     "microLabelShare": 0.039,
+     "microSamples": [
+      "Walnut · travertine · bronze",
+      "In the villa"
+     ],
+     "upperShare": 0.05,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Walnut · travertine · bronze",
+      "above": "Last Light",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 146
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f1ed",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.2,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f1ed",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e8e5df",
+       "top": 321,
+       "hsl": {
+        "h": 40,
+        "s": 0.16,
+        "l": 0.89
+       }
+      },
+      {
+       "color": "#1a1917",
+       "top": 2366,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9a9690",
+       "share": 0.47
+      },
+      {
+       "color": "#1a1917",
+       "share": 0.34
+      },
+      {
+       "color": "#f3f1ed",
+       "share": 0.11
+      },
+      {
+       "color": "#6f6c66",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#8e735c",
+      "hsl": {
+       "h": 28,
+       "s": 0.21,
+       "l": 0.46
+      },
+      "fg": "#f3f1ed"
+     },
+     "lowContrast": [
+      {
+       "text": "Book this villa",
+       "ratio": 3.9,
+       "need": 4.5,
+       "size": 17.9,
+       "fg": "#f3f1ed",
+       "bg": "#8e735c"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "div 713px",
+      "li 713px",
+      "li 713px",
+      "li 713px",
+      "li 713px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.56
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3102,
+    "margins": {
+     "left": 28,
+     "right": 172
+    },
+    "sections": [
+     {
+      "sel": "main#room",
+      "tag": "main",
+      "top": 0,
+      "height": 2239,
+      "words": 76,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Last Light",
+       "size": 53,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 257,
+      "textLeft": 28,
+      "textRight": 257,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 2366,
+      "height": 737,
+      "words": 93,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Visit",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 172,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Last Light",
+      "size": 53,
+      "top": 179,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 28,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.71,
+    0.5,
+    0.96,
+    1
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2571,
+     "screens": 3,
+     "words": 177,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Forilla-hero.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Forilla-dining.jpg&w=640&q="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Last Light",
+     "words": 2,
+     "chars": 10,
+     "lines": 1,
+     "size": 44,
+     "vw": 11.3,
+     "font": "Switzer",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.89,
+     "top": 179,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Last Light",
+     "words": 2,
+     "lines": 1,
+     "size": 44,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Last Light",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 179,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      17,
+      20,
+      44
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 14,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.012,
+      "contrast": 6
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "text": "Last Light"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 2,
+     "microLabelShare": 0.039,
+     "microSamples": [
+      "Walnut · travertine · bronze",
+      "In the villa"
+     ],
+     "upperShare": 0.05,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Walnut · travertine · bronze",
+      "above": "Last Light",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 146
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f1ed",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.2,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f3f1ed",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.2,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e8e5df",
+       "top": 301,
+       "hsl": {
+        "h": 40,
+        "s": 0.16,
+        "l": 0.89
+       }
+      },
+      {
+       "color": "#1a1917",
+       "top": 1754,
+       "hsl": {
+        "h": 40,
+        "s": 0.06,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9a9690",
+       "share": 0.47
+      },
+      {
+       "color": "#1a1917",
+       "share": 0.34
+      },
+      {
+       "color": "#f3f1ed",
+       "share": 0.11
+      },
+      {
+       "color": "#6f6c66",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#8e735c",
+      "hsl": {
+       "h": 28,
+       "s": 0.21,
+       "l": 0.46
+      },
+      "fg": "#f3f1ed"
+     },
+     "lowContrast": [
+      {
+       "text": "Book this villa",
+       "ratio": 3.9,
+       "need": 4.5,
+       "size": 17,
+       "fg": "#f3f1ed",
+       "bg": "#8e735c"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "div 346px",
+      "li 346px",
+      "li 346px",
+      "li 346px",
+      "li 346px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 62,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "geist",
+     "switzer",
+     "__nextjs-geist"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2571,
+    "margins": {
+     "left": 22,
+     "right": 22
+    },
+    "sections": [
+     {
+      "sel": "main#room",
+      "tag": "main",
+      "top": 0,
+      "height": 1634,
+      "words": 76,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Last Light",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 22,
+      "right": 24,
+      "textLeft": 22,
+      "textRight": 24,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 1754,
+      "height": 817,
+      "words": 93,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visit",
+       "size": 17,
+       "tag": "h3"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Last Light",
+      "size": 44,
+      "top": 179,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 22,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Walnut · travertine · bronze\" above \"Last Light\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "2 tiny uppercase letter-spaced label(s): \"Walnut · travertine · bronze\", \"In the villa\"",
+   "fix": "Prefer sentence case at body size.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "6 thin rule(s)/divider line(s): div 463px | li 463px | li 463px | li 463px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f3f1ed, section #f3f1ed, section #e8e5df).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Book a stay\" 3.9:1 needs 4.5:1; \"Book this villa\" 3.9:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (6:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 32px from the left edge but only to 144px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 768,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\vjeet\\Documents\\Project\\resort\\resort\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\vjeet\\Documents\\Project\\resort\\resort\\.taste-skill\\before\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\vjeet\\Documents\\Project\\resort\\resort\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\vjeet\\Documents\\Project\\resort\\resort\\.taste-skill\\before\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\vjeet\\Documents\\Project\\resort\\resort\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\vjeet\\Documents\\Project\\resort\\resort\\.taste-skill\\before\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

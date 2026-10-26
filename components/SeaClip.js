@@ -27,12 +27,7 @@ export default function SeaClip({ alt = "Ocean waves on a coastal beach" }) {
     <div className="sea-clip">
       {reduce ? (
         // biome-ignore lint/performance/noImgElement: poster fallback for reduced motion
-        <img
-          src="/video/waves-poster.jpg"
-          alt={alt}
-          width={854}
-          height={480}
-        />
+        <img src="/video/waves-poster.jpg" alt={alt} width={854} height={480} />
       ) : (
         <video
           ref={ref}

@@ -1,9 +1,20 @@
 "use client";
 
-import { useDictionary } from "@/components/LocaleProvider";
+import Link from "next/link";
+import { useDictionary, useLocale } from "@/components/LocaleProvider";
 
 export default function Footer() {
+  const locale = useLocale();
   const { credits, nav, site, ui } = useDictionary();
+  const homeHref = `/${locale}`;
+
+  function navHref(href) {
+    if (href.startsWith("#")) return `${homeHref}${href}`;
+    if (href.startsWith("/")) {
+      return href.startsWith(`/${locale}`) ? href : `${homeHref}${href}`;
+    }
+    return href;
+  }
 
   return (
     <footer className="footer">
@@ -22,7 +33,7 @@ export default function Footer() {
           <ul>
             {nav.map((item) => (
               <li key={item.href}>
-                <a href={item.href}>{item.label}</a>
+                <Link href={navHref(item.href)}>{item.label}</Link>
               </li>
             ))}
           </ul>
@@ -31,9 +42,13 @@ export default function Footer() {
           <h3>{ui.footerContact}</h3>
           <ul>
             <li>
-              <a href={`mailto:${site.email}`}>{site.email}</a>
+              <Link href={`mailto:${site.email}`}>{site.email}</Link>
             </li>
-            <li>{site.phone}</li>
+            <li>
+              <Link href={`tel:${site.phone.replace(/[^\d+]/g, "")}`}>
+                {site.phone}
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
@@ -64,16 +79,24 @@ export default function Footer() {
             </text>
           </svg>
         </p>
+        <p className="footer__legal">
+          <Link href={`/${locale}/policies`}>{ui.footerPolicies}</Link>
+          {" · "}
+          <Link href={`/${locale}/privacy`}>{ui.footerPrivacy}</Link>
+        </p>
         <p className="footer__legal">{ui.footerLegal}</p>
         <p className="footer__credits">
           {ui.footerImagery}:{" "}
           {credits.map((c) => `${c.title} (${c.note})`).join(" · ")}.{" "}
           {ui.footerFootage}:{" "}
-          <a href="https://commons.wikimedia.org/wiki/File:Ocean_waves_at_L%C3%A6kjavik_beach,_Iceland.webm">
+          <Link href="https://commons.wikimedia.org/wiki/File:Ocean_waves_at_L%C3%A6kjavik_beach,_Iceland.webm">
             {ui.footerFootageCredit}
-          </a>
-          , <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>,
-          via Wikimedia Commons. {ui.footerStillsNote}
+          </Link>
+          ,{" "}
+          <Link href="https://creativecommons.org/licenses/by/3.0">
+            CC BY 3.0
+          </Link>
+          , via Wikimedia Commons. {ui.footerStillsNote}
         </p>
       </div>
     </footer>

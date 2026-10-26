@@ -1,13 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import { useDictionary } from "@/components/LocaleProvider";
+import Link from "next/link";
+import { useDictionary, useLocale } from "@/components/LocaleProvider";
 
 export default function Faq() {
+  const locale = useLocale();
   const { cta, faq } = useDictionary();
+  const href = cta.href.startsWith("mailto:")
+    ? cta.href
+    : `/${locale}${cta.href.startsWith("/") ? cta.href : `/${cta.href}`}`;
 
   return (
-    <section className="section" aria-labelledby="faq-title">
+    <section id="faq" className="section" aria-labelledby="faq-title">
       <div className="frame faq">
         <div className="reveal">
           <h2 id="faq-title" className="faq__title">
@@ -30,9 +35,9 @@ export default function Faq() {
             ))}
           </div>
           <p style={{ marginTop: "2rem" }}>
-            <a className="btn" href={cta.href}>
+            <Link className="btn" href={href}>
               {cta.button}
-            </a>
+            </Link>
           </p>
         </div>
         <div className="faq__photos reveal" aria-hidden="false">

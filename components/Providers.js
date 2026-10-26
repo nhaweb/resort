@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
+import { useEffect, useRef } from "react";
+import { INTRO_DONE_EVENT } from "@/components/PageLoader";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -14,11 +15,20 @@ function isAlreadyOnScreen(el) {
   return rect.top < window.innerHeight * 0.95 && rect.bottom > 0;
 }
 
+function introPending() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return false;
+  }
+  return Boolean(document.querySelector(".page-loader"));
+}
+
 export default function Providers({ children }) {
   const root = useRef(null);
 
   useEffect(() => {
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const reduce = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
     if (reduce) return undefined;
 
     const lenis = new Lenis({
@@ -32,6 +42,7 @@ export default function Providers({ children }) {
       stopInertiaOnNavigate: true,
     });
 
+    window.__resortLenis = lenis;
     lenis.on("scroll", ScrollTrigger.update);
 
     const ticker = (time) => {
@@ -41,6 +52,19 @@ export default function Providers({ children }) {
     gsap.ticker.lagSmoothing(0);
 
     document.documentElement.classList.add("lenis", "lenis-smooth");
+
+    const onIntroDone = () => {
+      lenis.start();
+      lenis.resize();
+      ScrollTrigger.refresh();
+    };
+    window.addEventListener(INTRO_DONE_EVENT, onIntroDone);
+
+    // Stop scroll only while the landing intro is still covering the page.
+    // If the intro already finished (fast cache / skipped), keep Lenis running.
+    if (introPending()) {
+      lenis.stop();
+    }
 
     const refresh = () => {
       lenis.resize();
@@ -54,7 +78,9 @@ export default function Providers({ children }) {
       document.documentElement.classList.remove("lenis", "lenis-smooth");
       window.clearTimeout(settle);
       window.removeEventListener("load", refresh);
+      window.removeEventListener(INTRO_DONE_EVENT, onIntroDone);
       gsap.ticker.remove(ticker);
+      if (window.__resortLenis === lenis) window.__resortLenis = undefined;
       lenis.destroy();
     };
   }, []);

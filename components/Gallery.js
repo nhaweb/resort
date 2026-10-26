@@ -3,18 +3,12 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Instrument_Serif } from "next/font/google";
 import Image from "next/image";
 import { useEffect, useId, useRef, useState } from "react";
 import { useDictionary } from "@/components/LocaleProvider";
+import { instrumentSerif } from "@/lib/fonts";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
-
-const serif = Instrument_Serif({
-  subsets: ["latin", "latin-ext"],
-  weight: "400",
-  display: "swap",
-});
 
 function getFocusable(root) {
   if (!root) return [];
@@ -35,7 +29,10 @@ function getFocusable(root) {
   });
 }
 
-export default function Gallery() {
+/**
+ * @param {{ showIntro?: boolean }} props
+ */
+export default function Gallery({ showIntro = true }) {
   const { gallery, ui } = useDictionary();
   const root = useRef(null);
   const dialogRef = useRef(null);
@@ -156,25 +153,31 @@ export default function Gallery() {
 
   return (
     <section
-      id="gallery"
-      className="section gallery"
+      id={showIntro ? "gallery" : undefined}
+      className={`section section--tight-bottom gallery${showIntro ? "" : " gallery--embedded"}`}
       ref={root}
-      aria-labelledby={titleId}
+      aria-labelledby={showIntro ? titleId : undefined}
+      aria-label={showIntro ? undefined : gallery.title}
     >
       <div className="frame">
-        <header className="gallery__header gallery__rise">
-          <p className="gallery__eyebrow">{gallery.eyebrow}</p>
-          <h2 id={titleId} className={`gallery__title ${serif.className}`}>
-            {gallery.title}
-          </h2>
-          <p className="gallery__desc">{gallery.description}</p>
-        </header>
+        {showIntro ? (
+          <header className="gallery__header gallery__rise">
+            <p className="gallery__eyebrow">{gallery.eyebrow}</p>
+            <h2
+              id={titleId}
+              className={`gallery__title ${instrumentSerif.className}`}
+            >
+              {gallery.title}
+            </h2>
+            <p className="gallery__desc">{gallery.description}</p>
+          </header>
+        ) : null}
 
         <ul className="gallery__grid">
           {images.map((image, index) => (
             <li
               key={image.id}
-              className={`gallery__cell gallery__rise gallery__cell--c${image.span.cols} gallery__cell--r${image.span.rows} gallery__cell--${image.aspect}`}
+              className={`gallery__cell gallery__rise gallery__cell--a${image.id} gallery__cell--${image.aspect}`}
             >
               <button
                 type="button"
@@ -189,8 +192,12 @@ export default function Gallery() {
                     src={image.src}
                     alt=""
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 66vw"
-                    style={{ objectFit: "cover" }}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 42vw"
+                    style={{
+                      objectFit: "cover",
+                      objectPosition:
+                        image.aspect === "portrait" ? "center 40%" : "center",
+                    }}
                   />
                 </span>
                 <span className="gallery__caption">

@@ -1,0 +1,33 @@
+# Fly.io production app — adjust app name before first deploy.
+# https://fly.io/docs/reference/configuration/
+
+app = "orilla-resort"
+primary_region = "fra"
+
+[build]
+
+[env]
+  PORT = "3000"
+  PAYMENT_MODE = "stripe"
+  BOOKING_HOLD_TTL_MINUTES = "15"
+  BOOKING_MIN_STAY_NIGHTS = "1"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+  [[http_service.checks]]
+    interval = "15s"
+    timeout = "5s"
+    grace_period = "20s"
+    method = "GET"
+    path = "/api/health"
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1

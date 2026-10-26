@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -8,6 +9,7 @@ import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import { LocaleProvider } from "@/components/LocaleProvider";
+import PageLoader from "@/components/PageLoader";
 import Providers from "@/components/Providers";
 import Rhythm from "@/components/Rhythm";
 import Showcase from "@/components/Showcase";
@@ -15,19 +17,31 @@ import SiteNav from "@/components/SiteNav";
 import TidePicker from "@/components/TidePicker";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale } from "@/lib/i18n";
+import {
+  getMarketingFaq,
+  getMarketingGallery,
+  getMarketingVillas,
+} from "@/lib/sanity/fetch";
 
 export default async function Home({ params }) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
 
-  const dictionary = getDictionary(locale);
+  const base = getDictionary(locale);
+  const [villas, faq, gallery] = await Promise.all([
+    getMarketingVillas(locale),
+    getMarketingFaq(locale),
+    getMarketingGallery(locale),
+  ]);
+  const dictionary = { ...base, villas, faq, gallery };
 
   return (
     <LocaleProvider locale={locale} dictionary={dictionary}>
+      <PageLoader />
       <Providers>
-        <a className="sr-only" href="#top">
+        <Link className="sr-only" href="#top">
           {dictionary.ui.skipToContent}
-        </a>
+        </Link>
         <SiteNav />
         <main>
           <Hero />
@@ -38,8 +52,8 @@ export default async function Home({ params }) {
           <About />
           <TidePicker />
           <Faq />
-          <Cta />
           <Contact />
+          <Cta />
         </main>
         <Footer />
       </Providers>

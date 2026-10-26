@@ -1,11 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useId, useState } from "react";
-import { useDictionary } from "@/components/LocaleProvider";
+import { useDictionary, useLocale } from "@/components/LocaleProvider";
 
 export default function TidePicker() {
-  const { tides, ui } = useDictionary();
+  const locale = useLocale();
+  const { tides, ui, villas } = useDictionary();
   const [active, setActive] = useState(tides[0].id);
   const labelId = useId();
   const current = tides.find((t) => t.id === active) ?? tides[0];
@@ -56,11 +58,25 @@ export default function TidePicker() {
             <p>{current.path}</p>
             <p>{current.light}</p>
             <div className="tide__tags">
-              {current.recommend.map((name) => (
-                <span key={name} className="tide__tag">
-                  {name}
-                </span>
-              ))}
+              {current.recommend.map((name) => {
+                const villa = villas.find((item) => item.name === name);
+                if (!villa) {
+                  return (
+                    <span key={name} className="tide__tag">
+                      {name}
+                    </span>
+                  );
+                }
+                return (
+                  <Link
+                    key={villa.id}
+                    className="tide__tag"
+                    href={`/${locale}/rooms/${villa.id}`}
+                  >
+                    {villa.name}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

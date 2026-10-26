@@ -5,6 +5,10 @@ const nextConfig = {
     agentFeedback: true,
   },
   cacheComponents: true,
+  images: {
+    // Marketing images served from Sanity (optional CMS).
+    remotePatterns: [{ protocol: "https", hostname: "cdn.sanity.io" }],
+  },
   partialPrefetching: true,
   turbopack: {
     rules: {

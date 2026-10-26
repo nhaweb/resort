@@ -36,5 +36,8 @@ export function proxy(request) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)"],
+  // Skip locale handling for APIs, static assets, the admin UI and Sanity Studio.
+  matcher: [
+    "/((?!(?:api|admin|studio)(?:/|$)|_next/static|_next/image|favicon.ico|.*\\..*).*)",
+  ],
 };
