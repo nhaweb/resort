@@ -26,7 +26,7 @@
   --gap-section: clamp(7.5rem, 6rem + 4vw, 12rem);
   --radius: 0;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --font: "Switzer", system-ui, sans-serif;
+  --font: var(--font-manrope), "Manrope", system-ui, sans-serif;
   --focus: 2px solid var(--accent);
 }
 

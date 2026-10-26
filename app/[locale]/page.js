@@ -47,7 +47,7 @@ export default async function Home({ params }) {
           <Hero />
           <Intro />
           <Showcase />
-          <Rhythm />
+          {/* <Rhythm /> */}
           <Gallery />
           <About />
           <TidePicker />

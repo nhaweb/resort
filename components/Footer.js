@@ -71,7 +71,7 @@ export default function Footer() {
               x="0"
               y="115"
               fill="currentColor"
-              fontFamily="Switzer, system-ui, sans-serif"
+              fontFamily="Manrope, system-ui, sans-serif"
               fontSize="140"
               letterSpacing="-6"
             >
