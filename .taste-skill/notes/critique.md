@@ -1,4 +1,4 @@
-# Critique — Orilla (round 1)
+# Critique — PML Privilege Resort (round 1)
 
 ## Scores (Awwwards-weighted)
 - Design 8.0 / 10 — window hero, lunar/bronze, photo-led rhythm

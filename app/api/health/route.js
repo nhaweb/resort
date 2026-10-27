@@ -8,7 +8,7 @@ export async function GET() {
   const store = bookingStoreMode();
   const payload = {
     ok: true,
-    service: "orilla",
+    service: "pml",
     paymentMode: paymentMode(),
     store,
     database: hasDatabase() ? "configured" : "missing",

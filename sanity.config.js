@@ -5,8 +5,8 @@ import { schemaTypes, singletonTypes } from "./sanity/schemaTypes";
 export const studioBasePath = "/studio";
 
 export default defineConfig({
-  name: "orilla",
-  title: "Orilla",
+  name: "pml",
+  title: "PML Privilege Resort",
   basePath: studioBasePath,
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "",
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",

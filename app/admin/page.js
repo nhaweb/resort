@@ -28,7 +28,7 @@ export default function AdminLoginPage() {
 
   return (
     <main className="admin-main">
-      <h1>Orilla admin</h1>
+      <h1>PML Privilege Resort admin</h1>
       <form className="admin-card admin-form" onSubmit={onSubmit}>
         <label>
           Admin secret

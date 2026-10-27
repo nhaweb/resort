@@ -1,10 +1,10 @@
-# Orilla — creative notes
+# PML Privilege Resort — creative notes
 
 ## Reading
 Luxury nine-villa limestone cove resort. Primary job: make someone want to enquire about a stay.
 
 ## Inventory
-1. Name Orilla — Spanish for shoreline / edge
+1. Name PML Privilege Resort — Spanish for shoreline / edge
 2. Private cove cut into pale limestone
 3. Nine villas only — never more
 4. Tide decides the day: low tide opens the stone path into the bay
@@ -13,7 +13,7 @@ Luxury nine-villa limestone cove resort. Primary job: make someone want to enqui
 7. Constraint: closed to day guests; stay or not at all
 8. Arrival by small boat from the harbour, 18 minutes
 9. Rates from sample: from €680 / night (sample)
-10. Address sample: Cala Orilla, Costa Blanca — concept
+10. Address sample: Cala PML Privilege Resort, Costa Blanca — concept
 
 ## Argument
 1. This is a private limestone cove with nine villas. → hero window opening onto the cove

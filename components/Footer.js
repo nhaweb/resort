@@ -65,8 +65,8 @@ export default function Footer() {
 
       <div>
         <p className="footer__mark">
-          <svg viewBox="0 0 900 140" role="img" aria-label="Orilla">
-            <title>Orilla</title>
+          <svg viewBox="0 0 900 140" role="img" aria-label="PML Privilege Resort">
+            <title>PML Privilege Resort</title>
             <text
               x="0"
               y="115"
@@ -75,7 +75,7 @@ export default function Footer() {
               fontSize="140"
               letterSpacing="-6"
             >
-              Orilla
+              PML
             </text>
           </svg>
         </p>
@@ -85,7 +85,7 @@ export default function Footer() {
           <Link href={`/${locale}/privacy`}>{ui.footerPrivacy}</Link>
         </p>
         <p className="footer__legal">{ui.footerLegal}</p>
-        <p className="footer__credits">
+        {/* <p className="footer__credits">
           {ui.footerImagery}:{" "}
           {credits.map((c) => `${c.title} (${c.note})`).join(" · ")}.{" "}
           {ui.footerFootage}:{" "}
@@ -97,7 +97,7 @@ export default function Footer() {
             CC BY 3.0
           </Link>
           , via Wikimedia Commons. {ui.footerStillsNote}
-        </p>
+        </p> */}
       </div>
     </footer>
   );

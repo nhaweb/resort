@@ -53,7 +53,7 @@ export default async function Home({ params }) {
           <TidePicker />
           <Faq />
           <Contact />
-          <Cta />
+          {/* <Cta /> */}
         </main>
         <Footer />
       </Providers>

@@ -1,4 +1,4 @@
-# Orilla — Project Plan
+# PML Privilege Resort — Project Plan
 
 Plan cho dự án giới thiệu & booking resort (cập nhật từ codebase hiện tại).
 

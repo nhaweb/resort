@@ -1,4 +1,4 @@
-# Orilla
+# PML Privilege Resort
 
 Resort marketing site + MVP booking with online payment (Next.js, Postgres, Stripe).
 

@@ -21,7 +21,7 @@ export default function AdminNav() {
   return (
     <header className="admin-nav">
       <Link className="admin-nav__brand" href="/admin">
-        Orilla admin
+        PML Privilege Resort admin
       </Link>
       <nav aria-label="Admin">
         {links.map((link) => (

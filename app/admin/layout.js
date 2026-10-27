@@ -1,7 +1,7 @@
 import "./admin.css";
 
 export const metadata = {
-  title: "Orilla admin",
+  title: "PML Privilege Resort admin",
   robots: { index: false, follow: false },
 };
 

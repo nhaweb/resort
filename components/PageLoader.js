@@ -171,7 +171,7 @@ export default function PageLoader() {
           {ui.loadingPlace}
         </p>
       </div>
-      <span className="sr-only">{ui.loadingOrilla}</span>
+      <span className="sr-only">{ui.loadingPml}</span>
     </output>
   );
 }
